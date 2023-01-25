@@ -27,16 +27,12 @@ const Navbar = () => {
         </h1>
       </div>
       <ul className="hidden md:flex">
-        <li>Home</li>
-        <li>Destinations</li>
-        <li>Travel</li>
-        <li>View</li>
-        <li>Book</li>
+        <li className="hover:cursor-pointer">Home</li>
+        <li className="hover:cursor-pointer">Destinations</li>
+        <li className="hover:cursor-pointer">Travel</li>
+        <li className="hover:cursor-pointer">View</li>
+        <li className="hover:cursor-pointer">Book</li>
       </ul>
-      <div className="hidden md:flex">
-        <BiSearch className="" size={20} />
-        <BsPerson size={20} />
-      </div>
 
       {/* Hamburger */}
       <div onClick={handleNav} className="md:hidden z-10">
